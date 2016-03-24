@@ -1,0 +1,9 @@
+http:
+  port: 8080
+  adminPort: 8081
+
+database:
+  driverClass: org.h2.Driver
+  user: todo
+  password: pass
+  url: jdbc:h2:mem:todo
